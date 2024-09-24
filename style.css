@@ -73,8 +73,42 @@ p {
     margin-bottom: 20px;
 }
 
+.container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.container ul li {
+    margin-bottom: 10px;
+}
+
+.container ul li strong {
+    display: block;
+}
+
 .footer {
     background-color: #000000;
     padding: 8px;
     text-align: center;
+}
+
+.footer {
+    background-color: #000000;
+    padding: 8px;
+    text-align: center;
+    position: relative;
+}
+
+.footer-logo {
+    position: absolute;
+    /* Posiciona la imagen de manera absoluta dentro del footer */
+    left: 37%;
+    /* Alinea la imagen al margen izquierdo */
+    top: 50%;
+    /* Centra la imagen verticalmente */
+    transform: translateY(-50%);
+    /* Asegura que la imagen esté perfectamente centrada verticalmente */
 }
